@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é o Número?</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Descubra o Número</h1>
+    <form>
+        <p>
+            Número <input type="number" id="inNum" max="100" required autofocus>
+            <input type="submit" value="Verificar">
+        </p>
+
+        <h3> Erros: <span id="err"> </span> </h3>
+        <h3> Chances: <span id="chan"> </span> </h3>
+        <h3> Dica: <span id="dica">É um número entre 0 e 100.</span></h3>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
